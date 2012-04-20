@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790D690215420AE600C71E75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790D690115420AE600C71E75 /* UIKit.framework */; };
+		790D690415420AE600C71E75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790D690315420AE600C71E75 /* Foundation.framework */; };
+		790D690615420AE600C71E75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790D690515420AE600C71E75 /* CoreGraphics.framework */; };
+		790D690815420AE600C71E75 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790D690715420AE600C71E75 /* CoreData.framework */; };
+		790D690E15420AE600C71E75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 790D690C15420AE600C71E75 /* InfoPlist.strings */; };
+		790D691015420AE600C71E75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D690F15420AE600C71E75 /* main.m */; };
+		790D691415420AE600C71E75 /* FellowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D691315420AE600C71E75 /* FellowAppDelegate.m */; };
+		790D691615420AE600C71E75 /* FellowList.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 790D691515420AE600C71E75 /* FellowList.entitlements */; };
+		790D691915420AE600C71E75 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790D691715420AE600C71E75 /* MainStoryboard.storyboard */; };
+		790D691C15420AE600C71E75 /* FellowList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 790D691A15420AE600C71E75 /* FellowList.xcdatamodeld */; };
+		790D691F15420AE600C71E75 /* FellowMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D691E15420AE600C71E75 /* FellowMasterViewController.m */; };
+		790D692215420AE600C71E75 /* FellowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D692115420AE600C71E75 /* FellowDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		790D68FD15420AE600C71E75 /* FellowList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FellowList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		790D690115420AE600C71E75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		790D690315420AE600C71E75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		790D690515420AE600C71E75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		790D690715420AE600C71E75 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		790D690B15420AE600C71E75 /* FellowList-Info.plist */ = {isa = PBXFileReference; path = "FellowList-Info.plist"; sourceTree = "<group>"; };
+		790D690D15420AE600C71E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		790D690F15420AE600C71E75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		790D691115420AE600C71E75 /* FellowList-Prefix.pch */ = {isa = PBXFileReference; path = "FellowList-Prefix.pch"; sourceTree = "<group>"; };
+		790D691215420AE600C71E75 /* FellowAppDelegate.h */ = {isa = PBXFileReference; path = FellowAppDelegate.h; sourceTree = "<group>"; };
+		790D691315420AE600C71E75 /* FellowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FellowAppDelegate.m; sourceTree = "<group>"; };
+		790D691515420AE600C71E75 /* FellowList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FellowList.entitlements; sourceTree = "<group>"; };
+		790D691815420AE600C71E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		790D691B15420AE600C71E75 /* FellowList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FellowList.xcdatamodel; sourceTree = "<group>"; };
+		790D691D15420AE600C71E75 /* FellowMasterViewController.h */ = {isa = PBXFileReference; path = FellowMasterViewController.h; sourceTree = "<group>"; };
+		790D691E15420AE600C71E75 /* FellowMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FellowMasterViewController.m; sourceTree = "<group>"; };
+		790D692015420AE600C71E75 /* FellowDetailViewController.h */ = {isa = PBXFileReference; path = FellowDetailViewController.h; sourceTree = "<group>"; };
+		790D692115420AE600C71E75 /* FellowDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FellowDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790D68FA15420AE600C71E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790D690215420AE600C71E75 /* UIKit.framework in Frameworks */,
+				790D690415420AE600C71E75 /* Foundation.framework in Frameworks */,
+				790D690615420AE600C71E75 /* CoreGraphics.framework in Frameworks */,
+				790D690815420AE600C71E75 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790D68F215420AE600C71E75 = {
+			isa = PBXGroup;
+			children = (
+				790D690915420AE600C71E75 /* FellowList */,
+				790D690015420AE600C71E75 /* Frameworks */,
+				790D68FE15420AE600C71E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		790D68FE15420AE600C71E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790D68FD15420AE600C71E75 /* FellowList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		790D690015420AE600C71E75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				790D690115420AE600C71E75 /* UIKit.framework */,
+				790D690315420AE600C71E75 /* Foundation.framework */,
+				790D690515420AE600C71E75 /* CoreGraphics.framework */,
+				790D690715420AE600C71E75 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		790D690915420AE600C71E75 /* FellowList */ = {
+			isa = PBXGroup;
+			children = (
+				790D691215420AE600C71E75 /* FellowAppDelegate.h */,
+				790D691315420AE600C71E75 /* FellowAppDelegate.m */,
+				790D691715420AE600C71E75 /* MainStoryboard.storyboard */,
+				790D691D15420AE600C71E75 /* FellowMasterViewController.h */,
+				790D691E15420AE600C71E75 /* FellowMasterViewController.m */,
+				790D692015420AE600C71E75 /* FellowDetailViewController.h */,
+				790D692115420AE600C71E75 /* FellowDetailViewController.m */,
+				790D691A15420AE600C71E75 /* FellowList.xcdatamodeld */,
+				790D690A15420AE600C71E75 /* Supporting Files */,
+			);
+			path = FellowList;
+			sourceTree = "<group>";
+		};
+		790D690A15420AE600C71E75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				790D690B15420AE600C71E75 /* FellowList-Info.plist */,
+				790D690C15420AE600C71E75 /* InfoPlist.strings */,
+				790D690F15420AE600C71E75 /* main.m */,
+				790D691115420AE600C71E75 /* FellowList-Prefix.pch */,
+				790D691515420AE600C71E75 /* FellowList.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790D68FC15420AE600C71E75 /* FellowList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790D692515420AE600C71E75 /* Build configuration list for PBXNativeTarget "FellowList" */;
+			buildPhases = (
+				790D68F915420AE600C71E75 /* Sources */,
+				790D68FA15420AE600C71E75 /* Frameworks */,
+				790D68FB15420AE600C71E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FellowList;
+			productName = FellowList;
+			productReference = 790D68FD15420AE600C71E75 /* FellowList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790D68F415420AE600C71E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Fellow;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Code for America";
+			};
+			buildConfigurationList = 790D68F715420AE600C71E75 /* Build configuration list for PBXProject "FellowList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 790D68F215420AE600C71E75;
+			productRefGroup = 790D68FE15420AE600C71E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790D68FC15420AE600C71E75 /* FellowList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790D68FB15420AE600C71E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790D690E15420AE600C71E75 /* InfoPlist.strings in Resources */,
+				790D691615420AE600C71E75 /* FellowList.entitlements in Resources */,
+				790D691915420AE600C71E75 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790D68F915420AE600C71E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790D691015420AE600C71E75 /* main.m in Sources */,
+				790D691415420AE600C71E75 /* FellowAppDelegate.m in Sources */,
+				790D691C15420AE600C71E75 /* FellowList.xcdatamodeld in Sources */,
+				790D691F15420AE600C71E75 /* FellowMasterViewController.m in Sources */,
+				790D692215420AE600C71E75 /* FellowDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		790D690C15420AE600C71E75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790D690D15420AE600C71E75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		790D691715420AE600C71E75 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790D691815420AE600C71E75 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		790D692315420AE600C71E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		790D692415420AE600C71E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		790D692615420AE600C71E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FellowList/FellowList.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FellowList/FellowList-Prefix.pch";
+				INFOPLIST_FILE = "FellowList/FellowList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		790D692715420AE600C71E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FellowList/FellowList.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FellowList/FellowList-Prefix.pch";
+				INFOPLIST_FILE = "FellowList/FellowList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790D68F715420AE600C71E75 /* Build configuration list for PBXProject "FellowList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790D692315420AE600C71E75 /* Debug */,
+				790D692415420AE600C71E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790D692515420AE600C71E75 /* Build configuration list for PBXNativeTarget "FellowList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790D692615420AE600C71E75 /* Debug */,
+				790D692715420AE600C71E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		790D691A15420AE600C71E75 /* FellowList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				790D691B15420AE600C71E75 /* FellowList.xcdatamodel */,
+			);
+			currentVersion = 790D691B15420AE600C71E75 /* FellowList.xcdatamodel */;
+			path = FellowList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 790D68F415420AE600C71E75 /* Project object */;
+}
