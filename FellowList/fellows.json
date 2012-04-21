@@ -1,0 +1,262 @@
+[
+    {
+        "name": "Aurelio Tinio",
+        "city": "Austin",
+        "twitter": "@tinio",
+        "skills": [
+            "Python",
+            "Ruby",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "Emily Wright Moore",
+        "city": "Austin",
+        "twitter": "@emilyville",
+        "skills": [
+            "Design",
+            "Adobe Illustrator",
+            "Snowboarding"
+        ]
+    },
+    {
+        "name": "Joe Merante",
+        "city": "Austin",
+        "twitter": "@joemerante",
+        "skills": [
+            "Legal",
+            "Ruby",
+            "Python"
+        ]
+    },
+    {
+        "name": "Angel Kittiyachavalit",
+        "city": "Chicago",
+        "twitter": "@angelk",
+        "skills": [
+            "Design",
+            "Adobe Illustrator",
+            "Adobe Photoshop"
+        ]
+    },
+    {
+        "name": "Ben Sheldon",
+        "city": "Chicago",
+        "twitter": "@bensheldon",
+        "skills": [
+            "PHP",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "Jesse Bounds",
+        "city": "Chicago",
+        "twitter": "@boundsj",
+        "skills": [
+            "iOS",
+            "Python",
+            "Ruby"
+        ]
+    },
+    {
+        "name": "Rob Brackett",
+        "city": "Chicago",
+        "twitter": "@Mr0grog",
+        "skills": [
+            "JavaScript",
+            "iOS",
+            "Python"
+        ]
+    },
+    {
+        "name": "Alicia Rouault",
+        "city": "Detroit",
+        "twitter": "@arouault",
+        "skills": [
+            "Urban Planning",
+            "Design",
+            "Adobe Illustrator"
+        ]
+    },
+    {
+        "name": "Matt Hampel",
+        "city": "Detroit",
+        "twitter": "@MattH",
+        "skills": [
+            "Python",
+            "Data Visualization",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "Prashant Singh",
+        "city": "Detroit",
+        "twitter": "@prashtx",
+        "skills": [
+            "C#",
+            "Python",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "Diana Tran",
+        "city": "Honolulu",
+        "twitter": "@dianavtran",
+        "skills": [
+            "Design",
+            "Adobe Illustrator",
+            "Adobe Photoshop"
+        ]
+    },
+    {
+        "name": "Mick Thompson",
+        "city": "Honolulu",
+        "twitter": "@dthompson",
+        "skills": [
+            "Python",
+            "JavaScript",
+            "GIS"
+        ]
+    },
+    {
+        "name": "Sheba Najmi",
+        "city": "Honolulu",
+        "twitter": "@snajmi",
+        "skills": [
+            "UX",
+            "Product Management",
+            "Push-ups"
+        ]
+    },
+    {
+        "name": "Jessica Lord",
+        "city": "Macon",
+        "twitter": "@jllord",
+        "skills": [
+            "TileMill",
+            "Design",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "Nick Doiron",
+        "city": "Macon",
+        "twitter": "@mapmeld",
+        "skills": [
+            "GIS",
+            "JavaScript",
+            "TileMill"
+        ]
+    },
+    {
+        "name": "Zach Williams",
+        "city": "Macon",
+        "twitter": "@zachwill",
+        "skills": [
+            "Python",
+            "JavaScript",
+            "iOS"
+        ]
+    },
+    {
+        "name": "Amir Reavis-Bey",
+        "city": "New Orleans",
+        "twitter": "@AmirReavisBey",
+        "skills": [
+            "C#",
+            "Android",
+            "Ruby"
+        ]
+    },
+    {
+        "name": "Alex Pandel",
+        "city": "New Orleans",
+        "twitter": "@alexpandel",
+        "skills": [
+            "Design",
+            "Adobe Illustrator",
+            "Adobe Photoshop"
+        ]
+    },
+    {
+        "name": "Eddie Tejeda",
+        "city": "New Orleans",
+        "twitter": "@eddietejeda",
+        "skills": [
+            "JavaScript",
+            "CSS",
+            "PHP"
+        ]
+    },
+    {
+        "name": "Serena Wales",
+        "city": "New Orleans",
+        "twitter": "@gangleton",
+        "skills": [
+            "Ruby",
+            "JavaScript",
+            "CSS"
+        ]
+    },
+    {
+        "name": "Alex Yule",
+        "city": "Philadelphia",
+        "twitter": "@yuletide",
+        "skills": [
+            "GIS",
+            "Ruby",
+            "Python"
+        ]
+    },
+    {
+        "name": "Elizabeth Hunt",
+        "city": "Philadelphia",
+        "twitter": "@ezoehunt",
+        "skills": [
+            "UX",
+            "Design",
+            "CSS"
+        ]
+    },
+    {
+        "name": "Michelle Lee",
+        "city": "Philadelphia",
+        "twitter": "@mishmosh",
+        "skills": [
+            "UX",
+            "Design",
+            "Adobe Illustrator"
+        ]
+    },
+    {
+        "name": "Jim Craner",
+        "city": "Santa Cruz",
+        "twitter": "@jimcraner",
+        "skills": [
+            "PHP",
+            "Python",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "Ruthie Bendor",
+        "city": "Santa Cruz",
+        "twitter": "@unruthless",
+        "skills": [
+            "CSS",
+            "JavaScript",
+            "HTML5"
+        ]
+    },
+    {
+        "name": "Tamara Shopsin",
+        "city": "Santa Cruz",
+        "twitter": "@crazy1eye",
+        "skills": [
+            "Design",
+            "JavaScript",
+            "TileMill"
+        ]
+    }
+]

@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Fellow.h"
 
-@interface FellowDetailViewController : UIViewController
+@interface FellowDetailViewController : UITableViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) Fellow *fellow;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UITableViewCell *nameDetail;
+@property (weak, nonatomic) IBOutlet UITableViewCell *twitterDetail;
+@property (weak, nonatomic) IBOutlet UITableViewCell *primarySkill;
+@property (weak, nonatomic) IBOutlet UITableViewCell *secondarySkill;
+@property (weak, nonatomic) IBOutlet UITableViewCell *finalSkill;
+
 @end

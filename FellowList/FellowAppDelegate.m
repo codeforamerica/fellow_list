@@ -7,8 +7,8 @@
 //
 
 #import "FellowAppDelegate.h"
-
 #import "FellowMasterViewController.h"
+#import "Fellow+Create.h"
 
 @implementation FellowAppDelegate
 
@@ -18,35 +18,60 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [self customizeAppearance];
+    [self checkFellowsDatabase];
+    
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     FellowMasterViewController *controller = (FellowMasterViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
+
+- (void)customizeAppearance
+{
+    // Code for America colors.
+    // UIColor *red = [UIColor colorWithRed:199/255.0f green:30/255.0f blue:63/255.0f alpha:1];
+    UIColor *blue = [UIColor colorWithRed:44/255.0f green:137/255.0f blue:194/255.0f alpha:1];
+    UIColor *offWhite = [UIColor colorWithRed:250/255.0f green:250/255.0f blue:248/255.0f alpha:1];
+    UIColor *separate = [UIColor colorWithRed:235/255.0f green:235/255.0f blue:234/255.0f alpha:1];
+    [[UINavigationBar appearance] setTintColor:blue];
+    [[UITableView appearance] setBackgroundColor:offWhite];
+    [[UITableView appearance] setSeparatorColor:separate];
+}
+
+- (void)checkFellowsDatabase{
+    // Check to see if the Fellows database is empty or not.
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Fellow"
+                                              inManagedObjectContext:self.managedObjectContext];
+    [fetchRequest setEntity:entity];
+    
+    NSError *error;
+    NSArray *fellows = [self.managedObjectContext executeFetchRequest:fetchRequest error:&error];
+    if (![fellows count]) {
+        NSLog(@"Empty database");
+        [self populateDatabaseFromJSON];
+    } else {
+        NSLog(@"Database has data in it!");
+    }
+}
+
+- (void)populateDatabaseFromJSON{
+    dispatch_queue_t jsonQ = dispatch_queue_create("JSON Queue", NULL);
+    dispatch_async(jsonQ, ^{
+        NSString *file = [[NSBundle mainBundle] pathForResource:@"fellows" ofType:@"json"];
+        NSString *json = [[NSString alloc] initWithContentsOfFile:file
+                                                     encoding:NSUTF8StringEncoding
+                                                            error:nil];
+        NSData *jsonData = [json dataUsingEncoding:NSUTF8StringEncoding];
+        NSArray *data = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:nil];
+        for (NSDictionary *fellow in data) {
+            [Fellow fellowFromDictionary:fellow inManagedObjectContext:self.managedObjectContext];
+        }
+    });
+    dispatch_release(jsonQ);
+}
 							
-- (void)applicationWillResignActive:(UIApplication *)application
-{
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-}
-
-- (void)applicationDidEnterBackground:(UIApplication *)application
-{
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Saves changes in the application's managed object context before the application terminates.
@@ -70,7 +95,8 @@
 #pragma mark - Core Data stack
 
 // Returns the managed object context for the application.
-// If the context doesn't already exist, it is created and bound to the persistent store coordinator for the application.
+// If the context doesn't already exist, it is created and bound to the persistent store
+// coordinator for the application.
 - (NSManagedObjectContext *)managedObjectContext
 {
     if (_managedObjectContext != nil) {
@@ -105,7 +131,7 @@
         return _persistentStoreCoordinator;
     }
     
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"FellowList.sqlite"];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Fellows.sqlite"];
     
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
@@ -145,7 +171,8 @@
 // Returns the URL to the application's Documents directory.
 - (NSURL *)applicationDocumentsDirectory
 {
-    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory
+                                                   inDomains:NSUserDomainMask] lastObject];
 }
 
 @end

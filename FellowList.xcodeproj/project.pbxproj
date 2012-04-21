@@ -19,6 +19,11 @@
 		790D691C15420AE600C71E75 /* FellowList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 790D691A15420AE600C71E75 /* FellowList.xcdatamodeld */; };
 		790D691F15420AE600C71E75 /* FellowMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D691E15420AE600C71E75 /* FellowMasterViewController.m */; };
 		790D692215420AE600C71E75 /* FellowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D692115420AE600C71E75 /* FellowDetailViewController.m */; };
+		790D69321542121B00C71E75 /* linen.png in Resources */ = {isa = PBXBuildFile; fileRef = 790D69311542121B00C71E75 /* linen.png */; };
+		790D693815421BF700C71E75 /* Fellow+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D693715421BF700C71E75 /* Fellow+Create.m */; };
+		790D69411542252B00C71E75 /* fellows.json in Resources */ = {isa = PBXBuildFile; fileRef = 790D69401542252B00C71E75 /* fellows.json */; };
+		790D695015422D0500C71E75 /* Fellow.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D694F15422D0500C71E75 /* Fellow.m */; };
+		797A31821542893000240F7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 797A31811542892F00240F7C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,19 +32,26 @@
 		790D690315420AE600C71E75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		790D690515420AE600C71E75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		790D690715420AE600C71E75 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		790D690B15420AE600C71E75 /* FellowList-Info.plist */ = {isa = PBXFileReference; path = "FellowList-Info.plist"; sourceTree = "<group>"; };
+		790D690B15420AE600C71E75 /* FellowList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FellowList-Info.plist"; sourceTree = "<group>"; };
 		790D690D15420AE600C71E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		790D690F15420AE600C71E75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		790D691115420AE600C71E75 /* FellowList-Prefix.pch */ = {isa = PBXFileReference; path = "FellowList-Prefix.pch"; sourceTree = "<group>"; };
-		790D691215420AE600C71E75 /* FellowAppDelegate.h */ = {isa = PBXFileReference; path = FellowAppDelegate.h; sourceTree = "<group>"; };
+		790D691115420AE600C71E75 /* FellowList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FellowList-Prefix.pch"; sourceTree = "<group>"; };
+		790D691215420AE600C71E75 /* FellowAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FellowAppDelegate.h; sourceTree = "<group>"; };
 		790D691315420AE600C71E75 /* FellowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FellowAppDelegate.m; sourceTree = "<group>"; };
 		790D691515420AE600C71E75 /* FellowList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FellowList.entitlements; sourceTree = "<group>"; };
 		790D691815420AE600C71E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		790D691B15420AE600C71E75 /* FellowList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FellowList.xcdatamodel; sourceTree = "<group>"; };
-		790D691D15420AE600C71E75 /* FellowMasterViewController.h */ = {isa = PBXFileReference; path = FellowMasterViewController.h; sourceTree = "<group>"; };
+		790D691D15420AE600C71E75 /* FellowMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FellowMasterViewController.h; sourceTree = "<group>"; };
 		790D691E15420AE600C71E75 /* FellowMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FellowMasterViewController.m; sourceTree = "<group>"; };
-		790D692015420AE600C71E75 /* FellowDetailViewController.h */ = {isa = PBXFileReference; path = FellowDetailViewController.h; sourceTree = "<group>"; };
+		790D692015420AE600C71E75 /* FellowDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FellowDetailViewController.h; sourceTree = "<group>"; };
 		790D692115420AE600C71E75 /* FellowDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FellowDetailViewController.m; sourceTree = "<group>"; };
+		790D69311542121B00C71E75 /* linen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = linen.png; path = ../linen.png; sourceTree = "<group>"; };
+		790D693615421BF700C71E75 /* Fellow+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fellow+Create.h"; sourceTree = "<group>"; };
+		790D693715421BF700C71E75 /* Fellow+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fellow+Create.m"; sourceTree = "<group>"; };
+		790D69401542252B00C71E75 /* fellows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fellows.json; sourceTree = "<group>"; };
+		790D694E15422D0500C71E75 /* Fellow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fellow.h; sourceTree = "<group>"; };
+		790D694F15422D0500C71E75 /* Fellow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fellow.m; sourceTree = "<group>"; };
+		797A31811542892F00240F7C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 		790D68F215420AE600C71E75 = {
 			isa = PBXGroup;
 			children = (
+				797A31811542892F00240F7C /* README.md */,
 				790D690915420AE600C71E75 /* FellowList */,
 				790D690015420AE600C71E75 /* Frameworks */,
 				790D68FE15420AE600C71E75 /* Products */,
@@ -90,12 +103,9 @@
 			children = (
 				790D691215420AE600C71E75 /* FellowAppDelegate.h */,
 				790D691315420AE600C71E75 /* FellowAppDelegate.m */,
-				790D691715420AE600C71E75 /* MainStoryboard.storyboard */,
-				790D691D15420AE600C71E75 /* FellowMasterViewController.h */,
-				790D691E15420AE600C71E75 /* FellowMasterViewController.m */,
-				790D692015420AE600C71E75 /* FellowDetailViewController.h */,
-				790D692115420AE600C71E75 /* FellowDetailViewController.m */,
-				790D691A15420AE600C71E75 /* FellowList.xcdatamodeld */,
+				790D693A15421C3200C71E75 /* Controller */,
+				790D693915421C2400C71E75 /* Model */,
+				790D693B15421D4C00C71E75 /* View */,
 				790D690A15420AE600C71E75 /* Supporting Files */,
 			);
 			path = FellowList;
@@ -104,6 +114,7 @@
 		790D690A15420AE600C71E75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				790D69311542121B00C71E75 /* linen.png */,
 				790D690B15420AE600C71E75 /* FellowList-Info.plist */,
 				790D690C15420AE600C71E75 /* InfoPlist.strings */,
 				790D690F15420AE600C71E75 /* main.m */,
@@ -111,6 +122,38 @@
 				790D691515420AE600C71E75 /* FellowList.entitlements */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		790D693915421C2400C71E75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				790D694E15422D0500C71E75 /* Fellow.h */,
+				790D694F15422D0500C71E75 /* Fellow.m */,
+				790D691A15420AE600C71E75 /* FellowList.xcdatamodeld */,
+				790D693615421BF700C71E75 /* Fellow+Create.h */,
+				790D693715421BF700C71E75 /* Fellow+Create.m */,
+				790D69401542252B00C71E75 /* fellows.json */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		790D693A15421C3200C71E75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				790D691D15420AE600C71E75 /* FellowMasterViewController.h */,
+				790D691E15420AE600C71E75 /* FellowMasterViewController.m */,
+				790D692015420AE600C71E75 /* FellowDetailViewController.h */,
+				790D692115420AE600C71E75 /* FellowDetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		790D693B15421D4C00C71E75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				790D691715420AE600C71E75 /* MainStoryboard.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +211,9 @@
 				790D690E15420AE600C71E75 /* InfoPlist.strings in Resources */,
 				790D691615420AE600C71E75 /* FellowList.entitlements in Resources */,
 				790D691915420AE600C71E75 /* MainStoryboard.storyboard in Resources */,
+				790D69321542121B00C71E75 /* linen.png in Resources */,
+				790D69411542252B00C71E75 /* fellows.json in Resources */,
+				797A31821542893000240F7C /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +229,8 @@
 				790D691C15420AE600C71E75 /* FellowList.xcdatamodeld in Sources */,
 				790D691F15420AE600C71E75 /* FellowMasterViewController.m in Sources */,
 				790D692215420AE600C71E75 /* FellowDetailViewController.m in Sources */,
+				790D693815421BF700C71E75 /* Fellow+Create.m in Sources */,
+				790D695015422D0500C71E75 /* Fellow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +306,6 @@
 		790D692615420AE600C71E75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = FellowList/FellowList.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FellowList/FellowList-Prefix.pch";
 				INFOPLIST_FILE = "FellowList/FellowList-Info.plist";
@@ -270,7 +317,6 @@
 		790D692715420AE600C71E75 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = FellowList/FellowList.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FellowList/FellowList-Prefix.pch";
 				INFOPLIST_FILE = "FellowList/FellowList-Info.plist";
@@ -298,6 +344,7 @@
 				790D692715420AE600C71E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
