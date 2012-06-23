@@ -33,7 +33,7 @@
     // UIColor *red = [UIColor colorWithRed:199/255.0f green:30/255.0f blue:63/255.0f alpha:1];
     UIColor *blue = [UIColor colorWithRed:44/255.0f green:137/255.0f blue:194/255.0f alpha:1];
     UIColor *offWhite = [UIColor colorWithRed:250/255.0f green:250/255.0f blue:248/255.0f alpha:1];
-    UIColor *separate = [UIColor colorWithRed:235/255.0f green:235/255.0f blue:234/255.0f alpha:1];
+    UIColor *separate = [UIColor colorWithWhite:0.2 alpha:0.1];
     [[UINavigationBar appearance] setTintColor:blue];
     [[UITableView appearance] setBackgroundColor:offWhite];
     [[UITableView appearance] setSeparatorColor:separate];

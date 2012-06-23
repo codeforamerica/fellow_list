@@ -19,7 +19,6 @@
 		790D691C15420AE600C71E75 /* FellowList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 790D691A15420AE600C71E75 /* FellowList.xcdatamodeld */; };
 		790D691F15420AE600C71E75 /* FellowMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D691E15420AE600C71E75 /* FellowMasterViewController.m */; };
 		790D692215420AE600C71E75 /* FellowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D692115420AE600C71E75 /* FellowDetailViewController.m */; };
-		790D69321542121B00C71E75 /* linen.png in Resources */ = {isa = PBXBuildFile; fileRef = 790D69311542121B00C71E75 /* linen.png */; };
 		790D693815421BF700C71E75 /* Fellow+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D693715421BF700C71E75 /* Fellow+Create.m */; };
 		790D69411542252B00C71E75 /* fellows.json in Resources */ = {isa = PBXBuildFile; fileRef = 790D69401542252B00C71E75 /* fellows.json */; };
 		790D695015422D0500C71E75 /* Fellow.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D694F15422D0500C71E75 /* Fellow.m */; };
@@ -45,7 +44,6 @@
 		790D691E15420AE600C71E75 /* FellowMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FellowMasterViewController.m; sourceTree = "<group>"; };
 		790D692015420AE600C71E75 /* FellowDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FellowDetailViewController.h; sourceTree = "<group>"; };
 		790D692115420AE600C71E75 /* FellowDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FellowDetailViewController.m; sourceTree = "<group>"; };
-		790D69311542121B00C71E75 /* linen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = linen.png; path = ../linen.png; sourceTree = "<group>"; };
 		790D693615421BF700C71E75 /* Fellow+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fellow+Create.h"; sourceTree = "<group>"; };
 		790D693715421BF700C71E75 /* Fellow+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fellow+Create.m"; sourceTree = "<group>"; };
 		790D69401542252B00C71E75 /* fellows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fellows.json; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 		790D690A15420AE600C71E75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				790D69311542121B00C71E75 /* linen.png */,
 				790D690B15420AE600C71E75 /* FellowList-Info.plist */,
 				790D690C15420AE600C71E75 /* InfoPlist.strings */,
 				790D690F15420AE600C71E75 /* main.m */,
@@ -211,7 +208,6 @@
 				790D690E15420AE600C71E75 /* InfoPlist.strings in Resources */,
 				790D691615420AE600C71E75 /* FellowList.entitlements in Resources */,
 				790D691915420AE600C71E75 /* MainStoryboard.storyboard in Resources */,
-				790D69321542121B00C71E75 /* linen.png in Resources */,
 				790D69411542252B00C71E75 /* fellows.json in Resources */,
 				797A31821542893000240F7C /* README.md in Resources */,
 			);
