@@ -25,8 +25,6 @@
 		794D259715968DCD0028FCBF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D259515968DCD0028FCBF /* Icon.png */; };
 		794D259815968DCD0028FCBF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D259615968DCD0028FCBF /* Icon@2x.png */; };
 		794D259F1596A4EA0028FCBF /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D259E1596A4EA0028FCBF /* city.png */; };
-		794D25A31596A7320028FCBF /* CitySectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D25A21596A7320028FCBF /* CitySectionHeader.m */; };
-		794D25A51596AD860028FCBF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794D25A41596AD850028FCBF /* QuartzCore.framework */; };
 		794D25A81596B4740028FCBF /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D25A61596B4740028FCBF /* twitter.png */; };
 		794D25A91596B4740028FCBF /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D25A71596B4740028FCBF /* twitter@2x.png */; };
 		794D25AB1596C4CC0028FCBF /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794D25AA1596C4CC0028FCBF /* Twitter.framework */; };
@@ -60,9 +58,6 @@
 		794D259515968DCD0028FCBF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		794D259615968DCD0028FCBF /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		794D259E1596A4EA0028FCBF /* city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city.png; sourceTree = "<group>"; };
-		794D25A11596A7320028FCBF /* CitySectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySectionHeader.h; sourceTree = "<group>"; };
-		794D25A21596A7320028FCBF /* CitySectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySectionHeader.m; sourceTree = "<group>"; };
-		794D25A41596AD850028FCBF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		794D25A61596B4740028FCBF /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		794D25A71596B4740028FCBF /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
 		794D25AA1596C4CC0028FCBF /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
@@ -75,7 +70,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				794D25AB1596C4CC0028FCBF /* Twitter.framework in Frameworks */,
-				794D25A51596AD860028FCBF /* QuartzCore.framework in Frameworks */,
 				790D690215420AE600C71E75 /* UIKit.framework in Frameworks */,
 				790D690415420AE600C71E75 /* Foundation.framework in Frameworks */,
 				790D690615420AE600C71E75 /* CoreGraphics.framework in Frameworks */,
@@ -89,8 +83,6 @@
 		790D68F215420AE600C71E75 = {
 			isa = PBXGroup;
 			children = (
-				794D25AA1596C4CC0028FCBF /* Twitter.framework */,
-				794D25A41596AD850028FCBF /* QuartzCore.framework */,
 				797A31811542892F00240F7C /* README.md */,
 				794D259515968DCD0028FCBF /* Icon.png */,
 				794D259615968DCD0028FCBF /* Icon@2x.png */,
@@ -111,6 +103,7 @@
 		790D690015420AE600C71E75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				794D25AA1596C4CC0028FCBF /* Twitter.framework */,
 				790D690115420AE600C71E75 /* UIKit.framework */,
 				790D690315420AE600C71E75 /* Foundation.framework */,
 				790D690515420AE600C71E75 /* CoreGraphics.framework */,
@@ -175,8 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				790D691715420AE600C71E75 /* MainStoryboard.storyboard */,
-				794D25A11596A7320028FCBF /* CitySectionHeader.h */,
-				794D25A21596A7320028FCBF /* CitySectionHeader.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -260,7 +251,6 @@
 				790D692215420AE600C71E75 /* FellowDetailViewController.m in Sources */,
 				790D693815421BF700C71E75 /* Fellow+Create.m in Sources */,
 				790D695015422D0500C71E75 /* Fellow.m in Sources */,
-				794D25A31596A7320028FCBF /* CitySectionHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
