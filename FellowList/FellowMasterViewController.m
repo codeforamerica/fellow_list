@@ -77,9 +77,27 @@
     return cell;
 }
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *standard = [super tableView:tableView viewForHeaderInSection:section];
+    standard.backgroundColor = [UIColor colorWithWhite:0.2 alpha:0.5];
+    return standard;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    // Section header height. Required for custom section headers.
+    return 35.0;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 60.0;
+}
+
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    // Display the authors' names as section headings.
+    // Display the city names as section headings.
     return [[[self.fetchedResultsController sections] objectAtIndex:section] name];
 }
 
@@ -115,7 +133,7 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        Fellow *fellow= [[self fetchedResultsController] objectAtIndexPath:indexPath];
+        Fellow *fellow = [[self fetchedResultsController] objectAtIndexPath:indexPath];
         [[segue destinationViewController] setFellow:fellow];
     }
 }

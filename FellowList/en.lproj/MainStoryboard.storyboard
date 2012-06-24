@@ -238,6 +238,39 @@
             </objects>
             <point key="canvasLocation" x="968" y="-280"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="trQ-rq-a5P">
+            <objects>
+                <viewController storyboardIdentifier="CityViewController" id="Z6N-J0-sTS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vuj-33-0FE" customClass="CitySectionHeader">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="city.png" id="34N-JF-KTH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" text="Label" textAlignment="right" adjustsFontSizeToFit="NO" autoshrinkMode="none" id="cJF-Qr-njx">
+                                <rect key="frame" x="101" y="32" width="199" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="imageView" destination="34N-JF-KTH" id="gkY-Hh-JVJ"/>
+                            <outlet property="name" destination="cJF-Qr-njx" id="hvK-0B-KyB"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QkP-yl-75V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="525" y="316"/>
+        </scene>
         <!--View Controller - About-->
         <scene sceneID="9Td-vq-sbN">
             <objects>
@@ -261,7 +294,17 @@
             <point key="canvasLocation" x="968" y="316"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="city.png" width="987" height="185"/>
+    </resources>
     <classes>
+        <class className="CitySectionHeader" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CitySectionHeader.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="name" candidateClass="UILabel"/>
+            </relationships>
+        </class>
         <class className="FellowDetailViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FellowDetailViewController.h"/>
             <relationships>
