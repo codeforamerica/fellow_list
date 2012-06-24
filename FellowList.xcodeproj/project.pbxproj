@@ -22,6 +22,8 @@
 		790D693815421BF700C71E75 /* Fellow+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D693715421BF700C71E75 /* Fellow+Create.m */; };
 		790D69411542252B00C71E75 /* fellows.json in Resources */ = {isa = PBXBuildFile; fileRef = 790D69401542252B00C71E75 /* fellows.json */; };
 		790D695015422D0500C71E75 /* Fellow.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D694F15422D0500C71E75 /* Fellow.m */; };
+		794D259715968DCD0028FCBF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D259515968DCD0028FCBF /* Icon.png */; };
+		794D259815968DCD0028FCBF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D259615968DCD0028FCBF /* Icon@2x.png */; };
 		797A31821542893000240F7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 797A31811542892F00240F7C /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,8 @@
 		790D69401542252B00C71E75 /* fellows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fellows.json; sourceTree = "<group>"; };
 		790D694E15422D0500C71E75 /* Fellow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fellow.h; sourceTree = "<group>"; };
 		790D694F15422D0500C71E75 /* Fellow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fellow.m; sourceTree = "<group>"; };
+		794D259515968DCD0028FCBF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		794D259615968DCD0028FCBF /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		797A31811542892F00240F7C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				797A31811542892F00240F7C /* README.md */,
+				794D259515968DCD0028FCBF /* Icon.png */,
+				794D259615968DCD0028FCBF /* Icon@2x.png */,
 				790D690915420AE600C71E75 /* FellowList */,
 				790D690015420AE600C71E75 /* Frameworks */,
 				790D68FE15420AE600C71E75 /* Products */,
@@ -210,6 +216,8 @@
 				790D691915420AE600C71E75 /* MainStoryboard.storyboard in Resources */,
 				790D69411542252B00C71E75 /* fellows.json in Resources */,
 				797A31821542893000240F7C /* README.md in Resources */,
+				794D259715968DCD0028FCBF /* Icon.png in Resources */,
+				794D259815968DCD0028FCBF /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
