@@ -44,7 +44,7 @@
 {
     NSString *username = self.twitterDetail.detailTextLabel.text;
     TWTweetComposeViewController *tweetVC = [[TWTweetComposeViewController alloc] init];
-    [tweetVC setInitialText:username];
+    [tweetVC setInitialText:[NSString stringWithFormat:@"%@ ", username]];
     [self presentModalViewController:tweetVC animated:YES];
 }
 
