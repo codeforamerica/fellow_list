@@ -27,6 +27,8 @@
 		794D259F1596A4EA0028FCBF /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D259E1596A4EA0028FCBF /* city.png */; };
 		794D25A31596A7320028FCBF /* CitySectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D25A21596A7320028FCBF /* CitySectionHeader.m */; };
 		794D25A51596AD860028FCBF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794D25A41596AD850028FCBF /* QuartzCore.framework */; };
+		794D25A81596B4740028FCBF /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D25A61596B4740028FCBF /* twitter.png */; };
+		794D25A91596B4740028FCBF /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D25A71596B4740028FCBF /* twitter@2x.png */; };
 		797A31821542893000240F7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 797A31811542892F00240F7C /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		794D25A11596A7320028FCBF /* CitySectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySectionHeader.h; sourceTree = "<group>"; };
 		794D25A21596A7320028FCBF /* CitySectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySectionHeader.m; sourceTree = "<group>"; };
 		794D25A41596AD850028FCBF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		794D25A61596B4740028FCBF /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		794D25A71596B4740028FCBF /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
 		797A31811542892F00240F7C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +131,8 @@
 		790D690A15420AE600C71E75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				794D25A61596B4740028FCBF /* twitter.png */,
+				794D25A71596B4740028FCBF /* twitter@2x.png */,
 				794D259E1596A4EA0028FCBF /* city.png */,
 				790D690B15420AE600C71E75 /* FellowList-Info.plist */,
 				790D690C15420AE600C71E75 /* InfoPlist.strings */,
@@ -231,6 +237,8 @@
 				794D259715968DCD0028FCBF /* Icon.png in Resources */,
 				794D259815968DCD0028FCBF /* Icon@2x.png in Resources */,
 				794D259F1596A4EA0028FCBF /* city.png in Resources */,
+				794D25A81596B4740028FCBF /* twitter.png in Resources */,
+				794D25A91596B4740028FCBF /* twitter@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

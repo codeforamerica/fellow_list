@@ -45,8 +45,9 @@
         "twitter": "@bensheldon",
         "skills": [
             "PHP",
-            "CSS",
-            "JavaScript"
+            "JavaScript",
+            "CSS"
+
         ]
     },
     {
@@ -54,9 +55,10 @@
         "city": "Chicago",
         "twitter": "@boundsj",
         "skills": [
-            "iOS",
             "Python",
-            "Ruby"
+            "Ruby",
+            "iOS"
+
         ]
     },
     {
@@ -65,8 +67,9 @@
         "twitter": "@Mr0grog",
         "skills": [
             "JavaScript",
-            "iOS",
-            "Python"
+            "Python",
+            "iOS"
+
         ]
     },
     {
@@ -75,8 +78,8 @@
         "twitter": "@arouault",
         "skills": [
             "Urban Planning",
-            "Design",
-            "Adobe Illustrator"
+            "Product Management",
+            "Design"
         ]
     },
     {
@@ -84,9 +87,10 @@
         "city": "Detroit",
         "twitter": "@MattH",
         "skills": [
-            "Python",
             "Data Visualization",
-            "JavaScript"
+            "JavaScript",
+            "Python"
+
         ]
     },
     {
@@ -106,7 +110,7 @@
         "skills": [
             "Design",
             "Adobe Illustrator",
-            "Adobe Photoshop"
+            "After Effects"
         ]
     },
     {
@@ -126,7 +130,7 @@
         "skills": [
             "UX",
             "Product Management",
-            "Push-ups"
+            "Content Strategy"
         ]
     },
     {
