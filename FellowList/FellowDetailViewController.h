@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Twitter/Twitter.h>
 #import "Fellow.h"
 
 @interface FellowDetailViewController : UITableViewController
@@ -18,5 +19,7 @@
 @property (weak, nonatomic) IBOutlet UITableViewCell *primarySkill;
 @property (weak, nonatomic) IBOutlet UITableViewCell *secondarySkill;
 @property (weak, nonatomic) IBOutlet UITableViewCell *finalSkill;
+
+- (IBAction)sendTweet:(id)sender;
 
 @end

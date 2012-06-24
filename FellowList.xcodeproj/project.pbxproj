@@ -29,6 +29,7 @@
 		794D25A51596AD860028FCBF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794D25A41596AD850028FCBF /* QuartzCore.framework */; };
 		794D25A81596B4740028FCBF /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D25A61596B4740028FCBF /* twitter.png */; };
 		794D25A91596B4740028FCBF /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794D25A71596B4740028FCBF /* twitter@2x.png */; };
+		794D25AB1596C4CC0028FCBF /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794D25AA1596C4CC0028FCBF /* Twitter.framework */; };
 		797A31821542893000240F7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 797A31811542892F00240F7C /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		794D25A41596AD850028FCBF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		794D25A61596B4740028FCBF /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		794D25A71596B4740028FCBF /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		794D25AA1596C4CC0028FCBF /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		797A31811542892F00240F7C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				794D25AB1596C4CC0028FCBF /* Twitter.framework in Frameworks */,
 				794D25A51596AD860028FCBF /* QuartzCore.framework in Frameworks */,
 				790D690215420AE600C71E75 /* UIKit.framework in Frameworks */,
 				790D690415420AE600C71E75 /* Foundation.framework in Frameworks */,
@@ -86,6 +89,7 @@
 		790D68F215420AE600C71E75 = {
 			isa = PBXGroup;
 			children = (
+				794D25AA1596C4CC0028FCBF /* Twitter.framework */,
 				794D25A41596AD850028FCBF /* QuartzCore.framework */,
 				797A31811542892F00240F7C /* README.md */,
 				794D259515968DCD0028FCBF /* Icon.png */,

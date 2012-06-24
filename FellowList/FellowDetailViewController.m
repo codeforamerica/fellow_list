@@ -40,8 +40,17 @@
     [self configureView];
 }
 
+- (IBAction)sendTweet:(id)sender
+{
+    NSString *username = self.twitterDetail.detailTextLabel.text;
+    TWTweetComposeViewController *tweetVC = [[TWTweetComposeViewController alloc] init];
+    [tweetVC setInitialText:username];
+    [self presentModalViewController:tweetVC animated:YES];
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+
 @end

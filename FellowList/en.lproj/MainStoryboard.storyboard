@@ -93,6 +93,9 @@
                                     <state key="highlighted">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <connections>
+                                        <action selector="sendTweet:" destination="FCq-w3-M1J" eventType="touchUpInside" id="LED-Et-zpz"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -288,28 +291,6 @@
         <image name="city.png" width="987" height="185"/>
         <image name="twitter.png" width="300" height="70"/>
     </resources>
-    <classes>
-        <class className="CitySectionHeader" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CitySectionHeader.h"/>
-            <relationships>
-                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="name" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="FellowDetailViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FellowDetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="finalSkill" candidateClass="UITableViewCell"/>
-                <relationship kind="outlet" name="nameDetail" candidateClass="UITableViewCell"/>
-                <relationship kind="outlet" name="primarySkill" candidateClass="UITableViewCell"/>
-                <relationship kind="outlet" name="secondarySkill" candidateClass="UITableViewCell"/>
-                <relationship kind="outlet" name="twitterDetail" candidateClass="UITableViewCell"/>
-            </relationships>
-        </class>
-        <class className="FellowMasterViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FellowMasterViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
